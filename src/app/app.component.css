@@ -1,0 +1,57 @@
+button{
+    border: none;
+   
+    cursor: pointer;
+   background-color: black;
+    font-size: 15px;
+    color: white;
+    font-style: inherit;
+    padding: 15px;
+    font-weight: 550;
+
+}
+
+.connect{
+    background-color:orangered;
+    border-radius:5px;
+    color: whitesmoke;
+  
+  
+}
+
+.imggs{
+    max-width: 300px;
+}
+
+h2,h1{
+    color: white;
+}
+
+img{
+    max-width: 100%;
+    aspect-ratio: 1/1;
+   
+}
+body{
+    background-color: black;
+}
+
+.example-card {
+    max-width: 350px;
+  }
+
+  .icon-display {
+    transform: scale(1.5);
+    margin-left:20px;
+ }
+ 
+
+ .logo{
+    width: 100px;
+    height: 18px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+  
+ }
