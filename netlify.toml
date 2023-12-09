@@ -1,3 +1,7 @@
+[build]
+  publish = "dist/portifolio-fronend"
+  command = "ng build"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
