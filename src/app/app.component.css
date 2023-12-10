@@ -2,16 +2,20 @@ button{
     border: none;
    
     cursor: pointer;
-   background-color: black;
+   background-color:black;
     font-size: 15px;
     color: white;
     font-style: inherit;
     padding: 15px;
     font-weight: 550;
+  
 
 }
 
+
+
 .connect{
+ 
     background-color:orangered;
     border-radius:5px;
     color: whitesmoke;
@@ -33,7 +37,7 @@ img{
    
 }
 body{
-    background-color: black;
+    background-color: rgb(81, 78, 78);
 }
 
 .example-card {
@@ -55,6 +59,11 @@ body{
     margin: 10px;
   
  }
+
+ .animate{
+    transform: scale(1);
+
+ }
  
 
  a{
@@ -62,4 +71,79 @@ body{
     text-decoration: none;
     cursor: pointer;
     color: white;
+    display: inline;
  }
+
+ .fixed{
+    position: fixed;
+    width: 100%;
+    transition:  0.2s linear;
+    top: 0;
+    opacity: 1;
+   
+    background-color: black;
+ }
+
+ .notfixed{
+    position: static;
+    transition: 0.1s step-end ;
+    top:20px;
+ }
+
+ .ab{
+    animation-name: anime;
+    animation-duration: 2s;
+   transition: ease-in;
+ animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+ }
+
+ .head{
+    position: static;
+    animation-name: anime;
+    transition: 1s;
+    animation-delay: 0.2s;
+    animation-duration: 2s;
+ 
+   
+ }
+ @keyframes anime{
+    from{
+      left: 0;
+      rotate: 50deg;
+
+    }
+
+    to{
+        left: 70%;
+
+    }
+
+ }
+
+
+ 
+
+ .hovered{
+      background-color: red;
+ }
+ .nothovered{
+    background-color: white;
+ }
+
+
+
+  .j{
+     
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 2s  ease;
+  }
+
+.animate{
+    transform: translateY(5px);
+    opacity: 1;
+    
+
+  }

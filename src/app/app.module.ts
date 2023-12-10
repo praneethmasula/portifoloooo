@@ -11,11 +11,14 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
+import { AnimationscrolldirectiveComponent } from './animationscrolldirective/animationscrolldirective.component';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AnimationscrolldirectiveComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +28,8 @@ import {MatInputModule} from '@angular/material/input';
     FlexLayoutModule,
     MatButtonModule, MatMenuModule, MatIconModule,
     MatCardModule,
-    MatInputModule
+    MatInputModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
