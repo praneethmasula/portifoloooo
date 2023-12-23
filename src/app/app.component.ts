@@ -47,6 +47,9 @@ export class AppComponent {
     this.isSticky = window.pageYOffset >= 100;
   }
   scroll(s:string){
+    if(s=='top'){
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
      this.ele=document.getElementById(s);
     this.ele.scrollIntoView({
       behavior: "smooth",
